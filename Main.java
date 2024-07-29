@@ -1,15 +1,15 @@
-public class Main {
+import java.util.*;
+
+public class Main{
     public static void main(String[] args){
-        // variables 
-        int a = 40;
-        int b = 30;
-        int sum = a+b;
-        System.out.println(sum);
-        int diff = a-b;
-        System.out.println(diff);
-        int mul = a * b;
-        System.out.println(mul);
-        int div = a / b;
-        System.out.println(div);
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int sum = 0;
+        for (int i=1;i<=10;i++){
+            sum = n*i;
+            System.out.println(n+"x"+ i +"="+ sum );
+        }
+        
+
     }
 }
