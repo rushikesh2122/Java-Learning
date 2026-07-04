@@ -1,4 +1,3 @@
-import java.util.*;
 import java.util.Scanner; 
 
 class Demo {
@@ -8,7 +7,7 @@ class Demo {
 
         if (sc.hasNextInt()) {
             int age = sc.nextInt();
-            if (age >= 18) {
+            if (age >= 20) {
                 System.out.println("Person is Adult");
             } else {
                 System.out.println("Minor");
